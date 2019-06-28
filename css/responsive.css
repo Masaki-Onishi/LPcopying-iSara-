@@ -1,0 +1,752 @@
+/* MEDIA QUERIES */
+
+@media (max-width:1200px) {
+
+    /* HEADER */
+    header{
+        display: flex;
+        justify-content: space-between;
+        padding: 0;
+    }
+    .header-left p {
+        font-size: 12px;
+        font-weight: 600;
+        letter-spacing: 1px;
+    }
+    .header-right {
+        position: absolute;
+        right: 15px;
+        text-align: right;
+    }
+}
+
+@media (max-width:992px) {
+
+    /* HEADER */
+    .header-right p{
+        padding: 8px 30px;
+    }
+
+    /* TEACHER */
+    .teacher .row {
+        margin: 0 auto;
+        text-align: center;
+    }
+    .teacher-item {
+        margin: 0 auto;
+        padding: 0;
+    }
+    .teacher-contents {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+
+    /* CLASS */
+
+    .class {
+        text-align: center;
+        margin: 0 auto;
+    }
+    .class-contents .row{
+        margin: 0 auto;
+        width: 100%;
+    }
+    .class-item {
+        width: 100%;
+    }
+
+    /* SPECIAL */
+    .for-pc {
+        display: none;
+    }
+    .for-mobile {
+        display: none;
+    }
+    .for-tablet {
+        display: block;
+    }
+    .special-contents {
+        display: block;
+    }
+    .fortablet .row {
+        margin: 0 auto;
+    }
+    .special-item {
+        margin: 0 auto 1rem;;
+        
+    }
+}
+
+@media (max-width:768px) {
+
+    /* HEADER */
+
+    header {
+        height: 62px;
+    }
+    header .container-fluid {
+        padding-right: 0;
+    }
+    .header-left p {
+        position: absolute;
+        top: .5rem;
+        font-size: 5px;
+    }
+    .header-left a {
+        position: relative;
+        zoom: 70%;
+        top: 1rem;
+        margin: 0;
+    }
+    .right-md p{
+        display: none;
+    }
+    .right-xs{
+        display: flex;
+        flex-direction: column;
+        background-color: #da6b64;
+        height: 62px;
+        width: 76px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        color: #fff;
+        text-align: center;
+        padding-top: .6rem;
+    }
+    .right-xs img {
+        width: 20px;
+        height: 24px;
+        margin: 0 auto;
+    }
+    .right-xs a {
+        font-size: 12px;
+        font-weight: 400;
+        padding: 0;
+        margin: 0;
+        color: inherit;
+    }
+    .content {
+        height: 62px;
+    }
+
+    /* TOP */
+
+    .top {
+        height: 312px;
+        padding-top: px;
+    }
+    .cover-img {
+        background-image: url(../img/mainsp.jpg);
+        background-size: cover;
+        height: 312px;
+    }
+    .caption-1 {
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .caption-1 p:first-of-type {
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+    .caption-2 {
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    /* CONVERSION */
+
+    .conversion {
+        height:486px ;
+    }
+    .conversion p{
+        font-size: 15px;
+        letter-spacing: 1.5px;
+    }
+    .substance-free p{
+        font-size: 14px;
+        letter-spacing: 0.5px;
+    }
+    .document-request a{
+        padding: .5rem 0;
+        font-size: 20px;
+    }
+    .br-sp {
+        display:inline;
+    }
+
+    /* INTRODUCTION */
+
+
+    .introduction {
+        height: 658px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center bottom;
+    }
+
+    h2 {
+        font-size: 18px;
+        
+    }
+    .yallowbrackets h2 {
+        padding:2rem 2rem 2rem 2rem;
+        margin: 2rem 0;
+        width: 100%;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .yallowbrackets h2::before, .yallowbrackets h2::after {
+        content:'';
+        width: 2rem;
+        height: 2rem;
+        position: absolute;
+        display: inline-block;
+    }
+    .introduction-txt p{
+        font-size: 15px;
+        font-weight:300;  
+        letter-spacing: 1px;
+        line-height: 24px;
+    }
+    
+    /* ABOUT iSara */
+
+    .about-isara {
+        padding-bottom: 4.5rem;
+    }
+    .circle {
+        width:65px;
+        height: 65px;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 65px;
+        bottom: 30px;
+    }
+    .about-title {
+        padding: 0;
+    }
+    h3 {
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 24px;
+    }
+    .about-contents {
+        margin: 0;
+        padding: 1rem 1rem;
+    }
+    .about-items {
+        margin: 30px 0;
+        width: 100%;
+        padding: 0;
+        display:inline-block;
+      
+    }
+    .about-item {
+        padding: 0 ;
+        width: ;
+    } 
+    .about-item img {
+        zoom: 70%;
+    }
+    .about-item p {
+        font-size: 10px;
+        font-weight: 300;
+        line-height: 16px;
+        letter-spacing: 1px;
+        padding-top: .5rem;
+    }
+
+    /* ABOUT SECOND */
+
+    .about-second {
+        background-image: url(../img/aboutsecondbgsp.jpg);
+        background-size: cover;
+
+    }
+    .second-title h2 {
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 20px;
+    }
+    .second-title p {
+        font-size: 13px;
+        font-weight: 600;
+        line-height: 21px;
+    }
+    .second-item {
+        margin: 0 0 1rem 0;
+        height: 110px
+    }
+    .step {
+        height: 1.2rem;
+        margin: .9rem auto;
+        border-radius: 5px;
+    }
+    .step p {
+        font-size: 12px;
+        font-weight: 600;
+    }
+
+    .txtxs1 {
+        font-size: 12px;
+        font-weight: 600;
+        margin: 0 0 0 0;
+        letter-spacing: .5px;
+    }
+    .txtxs2 {
+        font-size: 12px;
+        font-weight: 600;
+        margin: .5rem 0 0 0;
+    }
+
+    /* ABOUT THIRD */
+
+    .about-third {
+
+    }
+    .about-third p {
+        font-size: 12px;
+        font-weight: 600;
+        margin: 0 0 0 0;
+        letter-spacing: 2px;
+    }
+
+    /* LEARNING */
+
+    .learning-title p {
+        font-size: 15px;
+        font-weight: 300;
+    }
+    .learning-item {
+        margin-right: 0;
+        padding: 5px;
+    }
+    .learning-item img {
+        width: 100%;
+    }
+    
+    .txtxs3 {
+        font-size: 15px;
+    }
+
+    /* MERIT */
+
+    .merit-item img{
+        height: 120px;
+        padding: 0;
+        width: 100%;
+    }
+    .merit-contents p:first-of-type{
+        font-size: 15px;
+        font-weight: 700;;
+        text-align: center !important;
+    }
+    .merit-contents p:last-of-type{
+        font-size: 12px;
+        font-weight: 300;
+        text-align: left;
+        letter-spacing: 1px;
+    }
+    .merit-support {
+        border: 2px solid #EBB94D;
+        background-color: #fff;
+        margin: 0rem 1rem;
+        padding: 0rem 0rem;
+        text-align: center;
+    }
+    .merit-support h2 {
+        padding: 0;
+        margin: 1rem 0 1.5rem;
+    }
+    .merit-support h2::before, .merit-support h2::after {
+        display: none;
+    }
+    .merit-support p:first-of-type {
+        font-size: 15px;
+        font-weight: 600;
+        margin: 0 auto;
+        letter-spacing: 1.2px;
+    }
+    .merit-support p:last-of-type {
+        font-size: 10px;
+        font-weight: 600;
+        text-align: center;
+        margin: 1rem auto;
+        letter-spacing: .8px;
+    }
+    .merittxt p {
+        font-size: 12px;
+        font-weight: 300;
+        padding-top: 1rem;
+        letter-spacing: 1px;
+    }
+    .br-sp2 {
+        display: none;
+    }
+
+    /* TEACHER */
+
+    .teacher {
+        background-image: url(../img/teacherbgsp.jpg);
+    }
+    .teacher-title h2 {
+        font-size: 19px;
+    }
+    .teacher-title p {
+        font-size: 12px;
+        width:70%;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .teacher-contents {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    .teacher-item {
+        width: 100%;
+    }
+    .teacher-item img{
+        width: 120px;
+    }
+    .teacher-txt {
+        width: 100%;
+    }
+    .teacher-txt p {
+        font-size: 12px;
+        font-weight: 300;
+    }
+    .teacher-txt {
+        border: 3px solid #fff;
+        padding: 2rem 1em 0rem 1rem;
+        font-size: 15px;
+        font-weight: lighter;
+        line-height: 17px;
+        
+    }
+
+    /* WHY */
+    .circle_2 {
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+    }
+
+    .question {
+        margin: 0;
+        padding: 0;
+    }
+    .question p {
+        line-height: 60px;
+        font-weight: 100;
+        font-size: 14px;
+    }    
+    .whitebrackets h2 {
+        padding:2rem 2rem 2rem 2rem;
+        margin: 0 0;
+        width: 100%;
+        font-size: 14px;
+        font-weight: 600;
+    }
+    .whitebrackets h2::before, .whitebrackets h2::after {
+        content:'';
+        width: 2rem;
+        height: 2rem;
+        position: absolute;
+        display: inline-block;
+
+    }
+
+    /* ANSWEAR */
+
+    .answear-contents {
+        width: 100%;
+    }
+    .answear-item {
+        
+    }
+    .answear-txt {
+        padding-right: 0;
+        width:100%;
+    }
+    .answear-txt p:first-of-type {
+        font-size: 14px;
+        font-weight: 400;
+        text-align: left;
+        padding: 0 0 0 0;
+        font-style: italic;
+        color: #777;
+        letter-spacing: 0.2rem;
+        line-height: 17px;
+      }
+    .answear-txt p:last-of-type {
+        font-size: 12px;
+        font-weight: 400;
+        text-align: left;
+        font-style: italic;
+        color: #777;
+        letter-spacing: ;
+        line-height: 15px;
+        padding: 0 0 0 0;
+        text-decoration: underline;
+      }
+
+      /* CLASS */
+
+      .class {
+        background-image: url(../img/classbgsp.jpg);
+        background-size: cover;
+        padding: 3rem 0 1rem 0 ;
+      }
+      .class-title p{
+          font-size: 12px;
+          padding-top: 1rem;
+      }
+      .class-contents {
+        padding-top: 1rem;
+      }
+      .class-item {
+          margin-bottom: 1rem;
+          padding: 0;
+      }
+      .class-wrap {
+          margin: 0;
+      }
+      .class-item p{
+        font-size: 15px;
+      }
+      .class-item li {
+        font-size: 12px;
+      }
+
+      /* CLASS BOTTOM */
+
+      
+      .class-bottom {
+        padding: 15px 0;
+      }
+      .class-bottom p{
+          font-size: 15px;
+      }
+
+      /* FLOW */
+
+      .flow-title img{
+        display: none;
+      }
+      .for-pc {
+          display: none;
+      }
+      
+        /* スマホのトグル */
+      .for-mobile {
+          display: block;
+      }  
+      .flow {
+        padding: 0 0 3rem;
+        text-align: center;
+      }
+      .flow-title h2 {
+        padding: 3rem 0 2rem 0;
+      }
+      .flowheading {
+          padding: 10px 15px;
+          background-color: #FEF5E0;
+          border: none;
+          margin: 4px 0 0 0;
+      }
+      .flow-heading a:focus{
+          text-decoration: underline;
+          color: black;
+      }
+      .flowtoggle {
+          text-align: left;
+          padding: 0;
+          margin: 0;
+      }
+      .flowtoggle img{
+          width: 35px;
+          height: 35px; 
+          margin-right: 1rem;
+      }
+      .flowbody {
+          text-align: left;
+          padding: 0 1rem;
+          background-color: #FEF5E0;
+      }
+
+      /* BANGKOK */
+
+      .bangkok {
+        background-image: url(../img/bangkokbgsp.jpg);
+        background-size: cover;
+        text-align: center;
+        width: 100%;
+        padding: 3rem 0 0.5rem 0;
+      }
+      .bangkok-title p{
+        font-size: 12px;
+        text-align: left;
+        padding-left: .5rem;
+      }
+      .bangkok-title li {
+          font-size: 12px;
+          font-weight: 300;
+          text-align: left;
+      }
+      .bangkok-title p:last-of-type {
+          font-size: 15px;
+          padding-left: .5rem;
+      }
+
+      /* SPECIAL */
+
+      .special {
+          padding: 2rem 0 1rem ;
+      }
+      .special-title p {
+        font-size: 12px;
+      }
+      .special-more {
+        position: relative;
+        top: 1.8rem;
+        text-align: center;
+        z-index: 2;
+        display: inline-block;
+        padding: 0 1rem ;
+        margin: 0;
+        line-height: 2rem;
+    }
+      .special-contents {
+          padding: 3rem 2rem 1rem 2rem;
+      }
+      .special-item2 {
+          display: flex;
+          justify-content: center;
+          margin-bottom: 2rem;
+      }
+      .special-right  {
+          margin: 0;
+      }
+      .special-right p {
+          padding-top: .5rem;
+          vertical-align: middle;
+      }
+      .for-pc, .for-tablet {
+          display: none;
+      }
+
+      /* SPECIALDTAIL */
+      
+      .specialdetail {
+        background-image: url(../img/specialdetailsp.jpg);
+        background-size: cover;
+        padding: 3rem 0 2rem;
+      }
+      .specialdetail h2 {
+          font-size: 18px;
+      }
+      .specialdetail p {
+          font-size: 12px;
+          letter-spacing: 1px;
+      } 
+
+      /* message */
+
+      .message {
+         padding-bottom: 2rem;
+      }
+      .message-title p {
+          font-size: 15px;
+          font-weight: 700;
+          padding: 1rem 0 0 0;
+      }
+      .message-contents {
+        display: block;
+        margin: 0;
+        padding: 0;
+      }
+      .message-contents img{
+          margin: 0;
+          padding: 0 0 1rem 0;
+      }
+      .message-contents p {
+          padding: 0;
+      }
+
+      /* FORM */
+
+      .form input {
+          font-size: 14px;
+          font-weight: 400;
+          height: 55px;
+      }
+      .form textarea {
+          font-size: 14px;
+          font-weight: 400;
+          height: 100px;
+      }
+      .form button {
+          font-size: 1.2rem;
+          letter-spacing: 0.5rem;
+      }
+      #accordion {
+          padding: 0;
+      }
+      
+      /* Q&A */
+
+      .question {
+          padding: 3rem 0 2rem 0;
+      }
+      .questionsheading h3{
+          font-size: 15px;
+          margin: 7px 0 7px 0;
+      }
+      .questionsheading {
+          padding: 0;
+      }
+      .questionsbody .text-left {
+          font-size: 12px;
+          font-weight: 600;
+          line-height: 19px;
+      }
+    
+      /* FOOTER */
+
+      footer {
+          padding: 1.5rem 0 0 0;
+      }
+      footer ul {
+          padding-top: 1rem;
+      }
+    }
+
+@media (max-width:576px) {
+    .about-item {
+        width: 30%;
+    }
+}
+
+
+
+/*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/

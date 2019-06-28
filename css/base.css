@@ -1,0 +1,33 @@
+/* COLOR */
+.color_1 {
+    color: #EBB94D;
+}
+.color_2 {
+    color: #fff!important;
+}
+
+/* FONT */
+.size_1 {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.size_2 {
+    font-size: 20px;
+}    
+.size_3 {
+    font-size: 14px;
+    font-weight: 300;
+}
+.size_4 {
+    font-size: 24px;
+    font-weight: 300;
+}
+.size_5 {
+    font-size: 12px;
+    font-weight: 600;
+}
+.size_6 {
+    font-size: 12px;
+    font-weight: 300;
+}
